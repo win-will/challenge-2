@@ -1,0 +1,75 @@
+/* create custom CSS variables (also called custom properties) and apply them to the root of the page, making them accessible to all other CSS */
+:root {
+    /* declare a variable with `--` syntax */
+    --dark:  darkblue;;
+    --light: lightblue;
+    --bg-1: rgb(58, 57, 57);
+    --bg-2: sandybrown;
+    --navlink-color: slategray;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  padding: 0px;
+  text-align: center;
+  background: linear-gradient(var(--dark), black);
+  color: #fff;
+  width: auto;
+  height: 150px;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 45pt;
+  position: absolute;
+  left:25%;
+
+}
+
+header img {
+
+  border-radius: 40%;
+  width: auto;
+  height: 90%;
+  position: relative;
+  left: 5px;
+  top: 10px;
+}
+
+nav {
+  display: flex;
+  /* rgb(58, 57, 57); */
+  background-color: black;
+  position: absolute;
+  right: 0px;
+  top: 15.3%;
+  right: 1%
+}
+
+nav a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  font-weight: bold;
+  color: white;
+  text-decoration: solid;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+@media screen and (max-min: 968px) {
+
+}
+
+@media screen and (max-width: 768px) {
+  
+}
+
+  @media screen and (max-width: 544px) {
+
+}
