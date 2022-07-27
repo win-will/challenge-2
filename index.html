@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="top-header">
       <!-- Avatar -->
       <img src="./assets/images/avatar-2-update.PNG" class="avatar">
       
@@ -15,38 +15,74 @@
       
       <!-- Navbar -->
       <nav>
-        <a href="#">About Me</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact Info</a>
+        <a href="#about">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact Info</a>
       </nav>
     </header>
 
     
-    <main>
+     <!-- Body -->
+     <main>
+      <!-- Sidebar -->
+      <aside>
+        <div id="about"><p>About Me</p></div>
+        <div id="portfolio"><p>Portfolio</p></div>
+        <div id="contact"><p>Contact Info</p></div>
+      </aside>
       
+      <!-- Product Cards -->
+      <div class="portfolio">
+        <section class="about_me">
+          <p>I am an aspiring web designer from Detroit.  
+            The blending of culture, music, and technology are areas of focus for me.
+            My goal is to take a customer's ideas and transform them into something that inspires, improving the human condition.
+          </p>
+        </section>
+        <section class="divider">
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+        </section>
+        <section class="big-card">
+          <header>   Designing Web Portfolios</header>
+          <img
+            src="./assets/images/portfolio-3.jpeg"
+            alt="Photo of someone taking a photo with a cell phone"
+          />
+        </section>
+        <section class="card">
+          <header>Create Photobooks</header>
+          <img 
+            src="./assets/images/portfolio-1.jpg" 
+            alt="Photo book with images of people with 3d glasses" 
+          />
+        </section>
+        <section class="card">
+          <header>Paintings & Sketches</header>
+          <img 
+            src="./assets/images/portfolio-2.jpg" 
+            alt="Recreated paintings from different eras" />
+        </section>
+        <section class="card">
+          <header>React J Experience</header>
+          <img
+            src="./assets/images/react-j.gif"
+            alt="4 wooden spoons with different seasonings"
+            id="reactj"
+          />
+        </section> 
+        <footer>
+          <h3>
+            ph: 313.123.4567   ---       email: doom@somemail.com    ---      address: 123 J St. Det, MI
 
-      <section>
-        <div>
-
-        
-        </div>
-      </section>
-
-      <section>
-        <div>
+          </h3>
+            
           
-        </div>
-      </section>
-
-      <section>
-        <div >
-          
-        </div>
-      </section>
+        </footer>
+      </div>
+    
     </main>
 
-    <footer>
-      
-    </footer>
+    <!-- Footer -->
+    
   </body>
 </html>
