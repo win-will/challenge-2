@@ -143,17 +143,17 @@ aside div p {
   border-color: black;
 }
 
-.big-card header {
+.big-card h2 {
   background-color:  var(--light);
   color: black;
   font-family: 'Lucida Handwriting';
   font-size: 18pt;
   position: relative;
-  top: 46px;
+  top: 65px;
   left:2px;
   padding: 5px;
   width: 400px;
-  
+
 }
 
 /* Size up big image */
@@ -179,14 +179,15 @@ aside div p {
 }
 
 /* Text for portfolio images */
-.card header {
+.card h3 {
   font-family: 'Lucida Sans';
+  font-size: 12pt;
   background-color: var(--light);
   color: black;
   position: relative;
   left:1px;
-  top: 26px;
-  width: 170px;
+  top: 36px;
+  width: 180px;
 }
 
 /* Setting apply to all portfolio images except the React J and Designing portfolios */
