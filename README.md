@@ -31,11 +31,12 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
-
-## Mock-up
-
-![Link to mock-up](https://github.com/win-will/challenge-1/blob/main/assets/images/01-html-css-git-homework-demo.png?raw=true)
-
 ## Links
 
 https://win-will.github.io/challenge-2/
+
+## Mock-up
+
+![Link to mock-up](./assets/images/mock-up.PNG)
+
+
