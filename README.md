@@ -1,4 +1,4 @@
-# Challenge 2
+# Web Design Portfolio
 
 ## Description
 
@@ -33,7 +33,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 ## Links
 
-https://win-will.github.io/challenge-2/
+https://win-will.github.io/project-portfolio/
 
 ## Mock-up
 
